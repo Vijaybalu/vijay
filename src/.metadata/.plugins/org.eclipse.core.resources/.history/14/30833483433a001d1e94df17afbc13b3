@@ -1,0 +1,21 @@
+package THMES;
+class Pollution{
+	void blue(String pollute) {
+		System.out.println("pollution is "+pollute+" the environment");
+	}
+}
+class Airpollution extends Pollution{
+	void blue(int num) {
+		super.blue("pollute");
+		System.out.println("air pollution is  "+num+"dangerious");
+	}
+}
+public class Super3 {
+
+	public static void main(String[] args) {
+		Airpollution obj = new Airpollution();
+		obj.blue(5);
+
+	}
+
+}

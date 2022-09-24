@@ -1,0 +1,50 @@
+package Abstract;
+import java.util.Scanner;
+abstract class Hotel{
+	String name;
+	int bill;
+	float rating;
+	Scanner sc = new Scanner(System.in);
+	abstract void rooms() ;
+		void show (String name,int bill,float rating) {
+			System.out.println("enter");
+			this.name=name;
+			if (name.equals("ac")){
+			
+			this.bill=bill;
+			this.rating=rating;
+			name=sc.next();
+			System.out.println("I selected "+name);
+			System.out.println("AC rooms details are");
+			System.out.println("--------------------");
+			System.out.println("room bill :"+bill);
+			System.out.println("Double bed room");
+			System.out.println("24 hours current");
+		    System.out.println("Hotel rating is "+rating+" star");
+			}
+			else {
+				System.out.println("I selected "+name);
+				System.out.println("NON-AC rooms details are");
+				System.out.println("--------------------");
+				System.out.println("room bill :"+bill);
+				System.out.println("Double bed room");
+				System.out.println("24 hours current");
+			    System.out.println("Hotel rating is "+rating+" star");
+			}
+			
+		}
+	}
+class Fivestar extends Hotel{
+        void rooms() {
+            System.out.println("select any one :AC (or) NON AC ");
+	}
+	} 
+public class Abstractdemo4 {
+
+	public static void main(String[] args) {
+		Fivestar f = new Fivestar();
+		f.rooms();
+		f.show("AC",200000,5f);
+        }
+
+    }

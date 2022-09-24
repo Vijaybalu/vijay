@@ -1,0 +1,14 @@
+package Methodpoverriding;
+class Bikes{
+	void bike() {
+		
+	}
+}
+public class Methodpoverridingdemo1 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

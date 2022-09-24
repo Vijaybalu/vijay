@@ -1,0 +1,20 @@
+package Nested_classes;
+class Test{
+	int a=20;
+	int b=30;
+	static int c=40;
+	static class Inner{
+		void sum() {
+			System.out.println("sum ="+c);
+		}
+	} 
+}
+public class Static_nested_class {
+
+	public static void main(String[] args) {
+		Test.Inner ti = new Test.Inner();
+		ti.sum();
+
+	}
+
+}
