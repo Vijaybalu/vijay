@@ -7,12 +7,12 @@ abstract class Animal{
 }
 class Lion extends Animal{
 void lifeSpam() {
-	System.out.println("Lion life spam 10years");	
+	System.out.println("Lion life span 10years");	
     }
 }
 class Tiger extends Lion{
 void lifeSpam() {
-	System.out.println("Tiger life spam 8years");	
+	System.out.println("Tiger life span 8years");	
     }
 }
 

@@ -1,7 +1,7 @@
 package Exceptionhandling;
 
 public class Exceptionhandling2 {
-	void A(int b)throws ArithmeticException{
+	void A(int b){
 		try {
 		int a=3/0;
 		System.out.println("its a infinite value");

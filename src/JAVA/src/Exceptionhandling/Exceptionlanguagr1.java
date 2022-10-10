@@ -2,14 +2,13 @@ package Exceptionhandling;
 
 public class Exceptionlanguagr1 {
 	public static void main(String []args) {
-		try {//try
+		try {
 	int a=3/0;
 	System.out.println(a);
 		}
-		catch(ArithmeticException ae) {//catch
+		catch(ArithmeticException ae) {
 			ae.printStackTrace();
 			System.out.println("progaram completed");
-			
 		}
 		try {
 			System.out.println("program started");

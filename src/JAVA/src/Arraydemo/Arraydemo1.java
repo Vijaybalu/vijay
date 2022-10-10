@@ -12,8 +12,8 @@ public class Arraydemo1 {
 		System.out.println(x);
 		}
 	char B [] = new char [2];
-		B [0]='A';
-		B [1]='g'; 
+		 B [0]='A';
+		 B [1]='g'; 
 		for (char x:B) {
 			System.out.println(x);
 		}
@@ -22,7 +22,6 @@ public class Arraydemo1 {
 		C [1]="balu";
 		for (String x:C) {
 			System.out.println(x);
-			
 		}
-	    }
-	    }
+	   }
+	 }
